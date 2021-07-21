@@ -1,3 +1,3 @@
 # Horizontal-Scroll-Bar
 
-### Example of a horizontal scroll bar based of the following blog post by [Ben McLaren](http://www.hoxton-digital.com/posts/strong-how-to-make-a-horizontal-scrollbar-that-moves-as-you-scroll-strong)
+### Example of a horizontal scroll bar using HTML, CSS and JS. Based of the following blog post by [Ben McLaren](http://www.hoxton-digital.com/posts/strong-how-to-make-a-horizontal-scrollbar-that-moves-as-you-scroll-strong) who utilised the jQuery library for the same effect
