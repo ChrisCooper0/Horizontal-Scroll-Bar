@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: blue;
+}
+
+.section {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section:nth-child(even) {
+  background-color: lightblue;
+}
+.section:nth-child(odd) {
+  background-color: whitesmoke;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
