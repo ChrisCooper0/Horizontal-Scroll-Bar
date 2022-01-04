@@ -1,4 +1,5 @@
-// Function fires each time the user scrolls up or down the page
+// onScroll function fires each time the user scrolls up or down the page
+
 window.onscroll = function onScroll() {
   // Pixels on the Y axis the user has scrolled
   let pixelsFromTop = window.scrollY;
@@ -15,6 +16,6 @@ window.onscroll = function onScroll() {
   // Get percentage by dividing how far from the top of the page with the height of the current viewable area (window)
   let percentage = (100 * pixelsFromTop) / difference;
 
-  // Select #bar from the DOM and add a width with whatever the percentage calculated above is
-  let bar = (document.getElementById("bar").style.width = `${percentage}%`);
+  // Select #bar from the DOM and add a width using the calculated percentage
+  document.getElementById("bar").style.width = `${percentage}%`;
 };
