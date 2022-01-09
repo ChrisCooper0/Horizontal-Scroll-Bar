@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.progress {
+.bar_wrapper {
   position: fixed;
   top: 0;
   left: 0;
