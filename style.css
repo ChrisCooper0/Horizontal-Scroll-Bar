@@ -3,22 +3,23 @@
   padding: 0;
 }
 
-.bar_wrapper {
+.section {
+  margin: 2rem;
+  height: 200rem;
+}
+
+.progress_wrapper {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
 }
 
-.bar {
+.progress_bar {
   position: absolute;
   top: 0;
   left: 0;
   width: 0;
   height: 5px;
-  background-color: #0000ff;
-}
-
-.section {
-  height: 800vh;
+  background-color: red;
 }
